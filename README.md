@@ -14,3 +14,8 @@ String formating includes:
 >Positional formatting
 >Formatted string literals
 >Template method
+
+Type conversions allowed:
+>!s (string version)
+>!r (string containing a printable representation, i.e. with quotes)
+>!a (some as !r but escape the non-ASCII characters)
