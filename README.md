@@ -1,3 +1,7 @@
+REGular EXpression or regex:
+String containing a combination of normal characters and special metacharacters that describes patterns to find text or positions within a text
+
+Applications:
 >String manipulation
 e.g. replace and andspecific substrings
 >String formatting
