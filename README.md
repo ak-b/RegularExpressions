@@ -59,6 +59,7 @@ Library: re
 |. |match any character(except newline)|
 |^ | start of the string|
 |$ | end of the string|
+|| | OR operator|
 
 Qantifiers tells the regex engine how many times to match a character immediately to its left.
 
@@ -87,9 +88,23 @@ Two types of matching methods:
 
 
 **Capturing Groups**
-Match a specific subpattern in a pattern
-* Alternation
-* Non-capturing Group
+Match a specific subpattern in a pattern.Groups can be used to choose between optional patterns.
+* Alternation - Use non-capturing groups for alternation
+* Non-capturing Group - Match but not capture a group.Useful when agroup is not backreferenced;Add ?: : (?:regex)
 
-**Backtracking Groups**
+**Numbered Groups**
+
+**Named Groups**
+Give a name to the groups (?P<name>regex)
+  
+**Backreferences**
+Using capturing groups to reference back to a group
+
+**Looking Around**
+Allow us to con rm that sub-pattern is ahead or behind main pattern
+* Look Ahead
+* Look Behind
+
+For more information and guide to building regex check [link]
+[https://regex101.com/]
 
