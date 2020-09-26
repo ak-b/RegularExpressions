@@ -21,3 +21,6 @@ another example
 * It must be at least 8 characters long but not more than 20
 '''
 regex = r"[a-zA-Z0-9*#\$%\!&\.]{8,20}"
+
+# Complete the regex to match an elongated word
+regex_elongated = r"\w*(\w)\1\w*"
