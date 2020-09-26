@@ -70,10 +70,13 @@ Quantifiers|Meaning|
 |{n,m} | n times at least , m times at most|
 |? | zero or more|
 
-|     GREEDY    |   NON-GREEDY   |
-|---------------|----------------|
-| Match as many | Match as few   |
-| characters    | characters as  |
-| as possible;  | needed; return |
-| return        | shortest match |
-| longest match |
+|     GREEDY      |   NON-GREEDY   |
+|-----------------|----------------|
+|1. Match as      | 1. Match as few|
+| many characters | characters as  |
+| as possible;    | needed; return |
+| return          | shortest match |
+| longest match   |                |
+|2. Standard      | 2. Append ? to |
+|quantifiers are  | non-greedy     |
+|greedy by default| match          |
