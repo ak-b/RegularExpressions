@@ -95,7 +95,7 @@ Match a specific subpattern in a pattern.Groups can be used to choose between op
 **Numbered Groups**
 
 **Named Groups**
-Give a name to the groups (?P<name>regex)
+Give a name to the groups (?P <name> regex)
   
 **Backreferences**
 Using capturing groups to reference back to a group
