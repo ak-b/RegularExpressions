@@ -2,11 +2,11 @@ REGular EXpression or regex:
 String containing a combination of normal characters and special metacharacters that describes patterns to find text or positions within a text
 
 Applications:
->String manipulation
+:String manipulation
 e.g. replace and andspecific substrings
->String formatting
+:String formatting
 e.g. interpolating a string in a template
->Basic and advanced regular expressions
+:Basic and advanced regular expressions
 e.g.  nding complex patterns in a string
 
 > Why do we need regular expressions ?
@@ -30,37 +30,37 @@ Template strings:
 >When working with external or user-provided strings
 
 Type conversions allowed:
->!s (string version)
->!r (string containing a printable representation, i.e. with quotes)
->!a (some as !r but escape the non-ASCII characters)
+:!s (string version)
+:!r (string containing a printable representation, i.e. with quotes)
+:!a (some as !r but escape the non-ASCII characters)
 
 Standard format speci􀃗er:
->e (scienti􀃗c notation, e.g. 5 10^3)
->d (digit, e.g. 4)
->f (􀃘oat, e.g. 4.5353)
+:e (scienti􀃗c notation, e.g. 5 10^3)
+:d (digit, e.g. 4)
+:f (􀃘oat, e.g. 4.5353)
 
 Escape Sequences:
->backslashes \
->Use $$ to escape the dollar sign
+:backslashes \
+:Use $$ to escape the dollar sign
 
-Metacharacter
+|Metacharacter|Meaning|
 |----|---------------|
-|>\d | digit|
-|>\w | word character|
-|>\W | non-word character|
-|>\s | whitespace|
-|>\S | pattern containing no whitespace|
-|>. |match any character(except newline)|
-|>^ | start of the string|
-|>$ | end of the string|
+|\d | digit|
+|\w | word character|
+|\W | non-word character|
+|\s | whitespace|
+|\S | pattern containing no whitespace|
+|. |match any character(except newline)|
+|^ | start of the string|
+|$ | end of the string|
 
-Quantifiers:
+Quantifiers|Meaning|
 |----|---------------|
-|>+ | one or more|
-|>* | no or more|
-|>{} | number of times the character on the left appears|
-|>{n,m} | n times at least , m times at most|
-|>? | zero or more|
+|+ | one or more|
+|* | no or more|
+|{} | number of times the character on the left appears|
+|{n,m} | n times at least , m times at most|
+|? | zero or more|
 
 |     GREEDY    |   NON-GREEDY   |
 |---------------|----------------|
