@@ -87,6 +87,7 @@ Two types of matching methods:
 
 
 **Capturing Groups**
+Match a specific subpattern in a pattern
 * Alternation
 * Non-capturing Group
 
