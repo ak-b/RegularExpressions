@@ -43,6 +43,12 @@ Escape Sequences:
 * backslashes \
 * Use $$ to escape the dollar sign
 
+**Python Supported Methods**
+Library: re
+|re.search(r"regex",string)| re.match(r"regex",string)|
+|--------------------------|--------------------------|
+|search everywhere | anchored at beginning|
+
 |Metacharacter|Meaning|
 |----|---------------|
 |\d | digit|
