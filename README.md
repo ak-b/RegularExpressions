@@ -30,18 +30,18 @@ Template strings:
 >When working with external or user-provided strings
 
 Type conversions allowed:
-:!s (string version)
-:!r (string containing a printable representation, i.e. with quotes)
-:!a (some as !r but escape the non-ASCII characters)
+: !s (string version)
+: !r (string containing a printable representation, i.e. with quotes)
+: !a (some as !r but escape the non-ASCII characters)
 
 Standard format speci􀃗er:
-:e (scienti􀃗c notation, e.g. 5 10^3)
-:d (digit, e.g. 4)
-:f (􀃘oat, e.g. 4.5353)
+: e (scienti􀃗c notation, e.g. 5 10^3)
+: d (digit, e.g. 4)
+: f (􀃘oat, e.g. 4.5353)
 
 Escape Sequences:
-:backslashes \
-:Use $$ to escape the dollar sign
+: backslashes \
+: Use $$ to escape the dollar sign
 
 |Metacharacter|Meaning|
 |----|---------------|
