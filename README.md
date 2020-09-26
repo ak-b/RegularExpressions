@@ -45,9 +45,9 @@ Escape Sequences:
 
 **Python Supported Methods**
 Library: re
-|re.search(r"regex",string)| re.match(r"regex",string)|
-|--------------------------|--------------------------|
-|search everywhere | anchored at beginning|
+|re.search(r"regex",string)| re.match(r"regex",string)|re.findall(r"regex",string)|
+|--------------------------|--------------------------|---------------------------|
+| search everywhere | anchored at beginning | return all matches |
 
 |Metacharacter|Meaning|
 |----|---------------|
@@ -80,3 +80,4 @@ Quantifiers|Meaning|
 |2. Standard      | 2. Append ? to |
 |quantifiers are  | non-greedy     |
 |greedy by default| match          |
+|-----------------|----------------|
