@@ -38,6 +38,11 @@ sep.join(iterable)
 
 .rsplit
 
+'''
+The difference between split() and splitlines is that splitlines() breaks a string by line boundaries
+#while split() uses the separating element to break a string into pieces.
+'''
+
 #Escape sequences such as /n and /r indicate a line boundary
 
 .splitlines()
@@ -49,3 +54,13 @@ sep.join(iterable)
 
 .rstrip() #to remove from right
 .lstrip() #to remove from left
+
+#Methods to search for a specific substring
+.find()
+.index()
+
+#Count occurrences
+.count()
+
+#Replace substring
+string.replace(old,new,count(optional))
