@@ -1,4 +1,4 @@
-REGular EXpression or regex:
+**REGular EXpression or regex:**
 String containing a combination of normal characters and special metacharacters that describes patterns to find text or positions within a text
 
 Applications:
@@ -106,5 +106,5 @@ Allow us to con rm that sub-pattern is ahead or behind main pattern
 * Look Behind
 
 For more information and guide to building regex check [link]
-[https://regex101.com/]
+(https://regex101.com/)
 
