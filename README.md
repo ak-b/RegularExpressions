@@ -60,7 +60,7 @@ Library: re
 |^ | start of the string|
 |$ | end of the string|
 
-Qantifiers apply only to characters immediately to the left
+Qantifiers tells the regex engine how many times to match a character immediately to its left.
 
 Quantifiers|Meaning|
 |----|---------------|
@@ -69,6 +69,10 @@ Quantifiers|Meaning|
 |{} | number of times the character on the left appears|
 |{n,m} | n times at least , m times at most|
 |? | zero or more|
+
+Two types of matching methods:
+* Greedy
+* Non-greedy or lazy
 
 |     GREEDY      |   NON-GREEDY   |
 |-----------------|----------------|
