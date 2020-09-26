@@ -102,8 +102,8 @@ Using capturing groups to reference back to a group
 
 **Looking Around**
 Allow us to con rm that sub-pattern is ahead or behind main pattern
-* Look Ahead
-* Look Behind
+* Look Ahead positive: (?=regex) negative: (?!regex)
+* Look Behind positive: (?<=regex) negative: (?<!regex)
 
 For more information and guide to building regex check [link]
 (https://regex101.com/)
