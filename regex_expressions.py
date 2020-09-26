@@ -24,3 +24,7 @@ regex = r"[a-zA-Z0-9*#\$%\!&\.]{8,20}"
 
 # Complete the regex to match an elongated word
 regex_elongated = r"\w*(\w)\1\w*"
+
+#Regex to remove HTML tags
+string="I want to see that <strong>amazing show</strong> again!"
+string_notags = re.sub(r"<.+?>","", string)
