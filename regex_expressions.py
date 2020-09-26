@@ -28,3 +28,24 @@ regex_elongated = r"\w*(\w)\1\w*"
 #Regex to remove HTML tags
 string="I want to see that <strong>amazing show</strong> again!"
 string_notags = re.sub(r"<.+?>","", string)
+
+#Commonly used string commands 
+sep.join(iterable)
+
+.capitalize(to capitalize the first character)
+
+.split(‘’,maxsplit=2)  (maximum number of substrings we want)
+
+.rsplit
+
+#Escape sequences such as /n and /r indicate a line boundary
+
+.splitlines()
+#split at /n sequence
+
+.join(string) #to concatenate
+
+.strip()  #trailing escape sequences will be removed
+
+.rstrip() #to remove from right
+.lstrip() #to remove from left
