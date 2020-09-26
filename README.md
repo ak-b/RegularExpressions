@@ -80,4 +80,5 @@ Quantifiers|Meaning|
 |2. Standard      | 2. Append ? to |
 |quantifiers are  | non-greedy     |
 |greedy by default| match          |
-|-----------------|----------------|
+
+** Capturing Groups **
