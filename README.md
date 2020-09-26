@@ -81,4 +81,10 @@ Quantifiers|Meaning|
 |quantifiers are  | non-greedy     |
 |greedy by default| match          |
 
-** Capturing Groups **
+
+**Capturing Groups**
+* Alternation
+* Non-capturing Group
+
+**Backtracking Groups**
+
