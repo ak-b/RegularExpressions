@@ -55,6 +55,13 @@ The difference between split() and splitlines is that splitlines() breaks 
 .rstrip() #to remove from right
 .lstrip() #to remove from left
 
+'''
+Remember that start and end argument are optional in .find() and .count() methods.
+When specified, the method interprets them for slicing the string.-1  if not found
+find() will return the value minus one if the substring is not found which, in most of cases, 
+is better than handling the exceptions index() will raise because it improves performance.
+'''
+
 #Methods to search for a specific substring
 .find()
 .index()
