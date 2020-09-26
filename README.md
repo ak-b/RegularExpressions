@@ -60,10 +60,10 @@ Quantifiers:
 >{n,m} : n times at least , m times at most
 >? : zero or more
 
-|     GREEDY     |   NON-GREEDY   |
------------------------------------
-| Match as many  | Match as few   |
-| characters     | characters as  |
-| as possible;   | needed; return |
-| return         | shortest match |
-| longest match  |
+|     GREEDY    |   NON-GREEDY   |
+|---------------|----------------|
+| Match as many | Match as few   |
+| characters    | characters as  |
+| as possible;  | needed; return |
+| return        | shortest match |
+| longest match |
