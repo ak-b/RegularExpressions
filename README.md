@@ -44,21 +44,23 @@ Escape Sequences:
 >Use $$ to escape the dollar sign
 
 Metacharacter
->\d : digit
->\w : word character
->\W : non-word character
->\s : whitespace
->\S : pattern containing no whitespace
->. : match any character(except newline)
->^ : start of the string
->$ : end of the string
+|----|---------------|
+|>\d | digit|
+|>\w | word character|
+|>\W | non-word character|
+|>\s | whitespace|
+|>\S | pattern containing no whitespace|
+|>. |match any character(except newline)|
+|>^ | start of the string|
+|>$ | end of the string|
 
 Quantifiers:
->+ : one or more
->* : no or more
->{} : number of times the character on the left appears
->{n,m} : n times at least , m times at most
->? : zero or more
+|----|---------------|
+|>+ | one or more|
+|>* | no or more|
+|>{} | number of times the character on the left appears|
+|>{n,m} | n times at least , m times at most|
+|>? | zero or more|
 
 |     GREEDY    |   NON-GREEDY   |
 |---------------|----------------|
