@@ -42,3 +42,28 @@ Standard format speci􀃗er:
 Escape Sequences:
 >backslashes \
 >Use $$ to escape the dollar sign
+
+Metacharacter
+>\d : digit
+>\w : word character
+>\W : non-word character
+>\s : whitespace
+>\S : pattern containing no whitespace
+>. : match any character(except newline)
+>^ : start of the string
+>$ : end of the string
+
+Quantifiers:
+>+ : one or more
+>* : no or more
+>{} : number of times the character on the left appears
+>{n,m} : n times at least , m times at most
+>? : zero or more
+
+|     GREEDY     |   NON-GREEDY   |
+-----------------------------------
+| Match as many  | Match as few   |
+| characters     | characters as  |
+| as possible;   | needed; return |
+| return         | shortest match |
+| longest match  |
